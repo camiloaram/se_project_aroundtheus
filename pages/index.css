@@ -1,0 +1,27 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../vendor/fonts/Inter-Black.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../vendor/fonts/Inter-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../vendor/fonts/Inter-Regular.woff2) format("woff2");
+}
