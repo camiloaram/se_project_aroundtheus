@@ -2,25 +2,29 @@
   background-color: black;
   color: white;
   font-family: Inter, Arial, Helvetica, sans-serif;
-  max-width: 100%;
-  overflow-x: hidden;
-  margin: 0;
+}
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .page__content {
-  margin: 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
   margin-top: 45px;
-
-  max-width: 880px;
 }
 
 .profile {
   display: flex;
   align-items: center;
-  padding: 40px 0 0;
+  padding-top: 40px;
 }
 
 .profile__info {
@@ -35,10 +39,74 @@
   background: transparent url(../images/edit-button.svg) center no-repeat;
   height: 24px;
   width: 24px;
+  grid-area: button;
 }
 
 .profile__add-button {
   background: transparent url(../images/add-button.svg) center no-repeat;
   width: 150px;
   height: 50px;
+  margin-left: auto;
+}
+
+.profile__title {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+  grid-area: title;
+  margin: 0;
+}
+
+.profile__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  grid-area: description;
+}
+
+.profile__image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  margin-right: 24px;
+}
+
+.cards {
+  /* fonts */
+  /* height: 742px; */
+}
+
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 0fr));
+  grid-gap: 17px 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 282px;
+  height: 282px;
+  list-style-type: none;
+}
+
+.card__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding: 25px 20px 25px 20px;
+}
+
+.card__like-button {
+  background: transparent url(../images/Like-icon.svg) center no-repeat;
+  width: 21px;
+  height: 18px;
+  border: 0;
 }
