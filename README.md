@@ -1,3 +1,6 @@
 Around The U.S
+
 Responsive Design using grid layout.
-https://github.com/camiloaram/se_project_aroundtheus.git
+
+[Project on Github Pages]
+https://camiloaram.github.io/se_project_aroundtheus/
