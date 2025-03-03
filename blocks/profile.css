@@ -59,7 +59,6 @@
 
 @media screen and (max-width: 480px) {
   .profile {
-    /* background-color: pink; */
     flex-direction: column;
   }
 
@@ -83,7 +82,6 @@
 
 @media screen and (max-width: 775px) {
   .profile {
-    /* background-color: pink; */
     flex-direction: column;
   }
 
@@ -107,7 +105,6 @@
 
 @media screen and (max-width: 1280px) {
   .profile {
-    /* background-color: pink; */
     flex-direction: column;
   }
 
