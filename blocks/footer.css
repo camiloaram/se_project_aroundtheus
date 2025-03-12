@@ -8,9 +8,9 @@
 }
 
 .footer__copyright {
-  max-width: 100%;
-  width: 318px;
-  height: 18px;
+  margin: 0 auto
+  max-width: 318px;
+  max-height: 18px
   font-family: Inter, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;

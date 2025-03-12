@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.card__like-button {
+  color: #454545;
+}
+
 .card__title {
   margin: 0;
   max-width: 220px;
