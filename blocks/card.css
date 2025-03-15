@@ -27,8 +27,8 @@
   cursor: pointer;
 }
 
-.card__like-button {
-  color: #454545;
+.card__like-button:hover {
+  opacity: 0.5;
 }
 
 .card__title {
