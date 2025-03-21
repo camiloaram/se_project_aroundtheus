@@ -9,3 +9,27 @@
   max-height: 100%;
   height: 33px;
 }
+
+@media screen and (max-width: 1280px) {
+  .header {
+  }
+
+  .header__logo {
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .header {
+  }
+
+  .header__logo {
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+  }
+
+  .header__logo {
+  }
+}
