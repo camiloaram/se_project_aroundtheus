@@ -12,6 +12,8 @@
 
 @media screen and (max-width: 1280px) {
   .header {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .header__logo {
@@ -27,6 +29,14 @@
 }
 
 @media screen and (max-width: 480px) {
+  .header {
+  }
+
+  .header__logo {
+  }
+}
+
+@media screen and (max-width: 320px) {
   .header {
   }
 
