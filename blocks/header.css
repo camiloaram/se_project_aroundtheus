@@ -15,31 +15,15 @@
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-
-  .header__logo {
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .header {
-  }
-
-  .header__logo {
-  }
 }
 
 @media screen and (max-width: 480px) {
   .header {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .header__logo {
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-  }
-
-  .header__logo {
+    display: block;
   }
 }
