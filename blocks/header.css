@@ -10,20 +10,17 @@
   height: 33px;
 }
 
-@media screen and (max-width: 1280px) {
-  .header {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .header {
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    margin: 0;
+    max-width: 100%;
   }
 
   .header__logo {
     display: block;
+    width: 126px;
+    height: 24px;
+
+    margin: 28px 0 32px 28px;
   }
 }
