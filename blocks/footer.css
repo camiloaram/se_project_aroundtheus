@@ -14,11 +14,10 @@
 @media screen and (max-width: 320px) {
   .footer {
     font-size: 14px;
-    min-width: 282px;
+    padding: 48px 0 63px;
   }
 
   .footer__copyright {
     font-size: 14px;
-    padding: 48px 19px 36px;
   }
 }
