@@ -1,6 +1,8 @@
 Around The U.S
 
-HTML/CSS Responsive Design, I will use JS next.
+HTML/CSS Responsive Design.
+
+.js and arrays
 
 [Project on Github Pages]
 https://camiloaram.github.io/se_project_aroundtheus/
