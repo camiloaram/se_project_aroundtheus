@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  padding: 0 19px;
+  /* display: none; */
+}
+
+.modal_opened {
+  /* display: flex; */
+}
+
+.modal__container {
+  position: relative;
+  padding: 36px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.modal__close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/Close\ Icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal__heading {
+  color: #000;
+  min-width: 330px;
+  min-height: 23px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.modal__form {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1 fr 1 fr;
+  gap: 10px;
+  min-width: 430px;
+  min-height: 330px;
+}
