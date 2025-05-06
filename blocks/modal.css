@@ -16,6 +16,7 @@
 }
 
 .modal__container {
+  box-sizing: border-box;
   position: relative;
   padding: 36px;
   background-color: #fff;
@@ -54,4 +55,14 @@
   gap: 10px;
   min-width: 430px;
   min-height: 330px;
+}
+
+@media screen and (max-width: 1100px) {
+  .modal {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .modal {
+  }
 }
