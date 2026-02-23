@@ -2,6 +2,7 @@
   border-radius: 10px;
   list-style-type: none;
   overflow: hidden;
+  position: relative;
 }
 
 .card__image {
@@ -42,4 +43,23 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.card__like-button_active {
+  background: transparent url(../images/like-active.svg) center no-repeat;
+}
+
+.card__delete-button {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  background: transparent url(../images/Trash.svg) center no-repeat;
+  width: 18px;
+  height: 19px;
+  cursor: pointer;
+  border: none;
+}
+
+.card__delete-button:hover {
+  opacity: 0.6;
 }
